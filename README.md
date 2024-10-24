@@ -1,4 +1,4 @@
-# [QB] Admin Menu
+# [QB] Haze Studios Admin Menu
 
 Lightweight and customizable Admin Menu built specifically for the QBCore framework. Utilizing the powerful ox_lib, this menu is designed to provide essential admin features without unnecessary bloat, making it easy to manage your server efficiently.
 
