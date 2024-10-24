@@ -3,7 +3,7 @@ game 'gta5'
 lua54 'yes'
 
 name 'Haze Studios Admin Menu'
-author 'ThatsJohnny'
+author 'Haze Studios'
 description 'Admin Menu using oxmysql and ox_lib'
 version '1.0.0'
 
