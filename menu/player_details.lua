@@ -17,7 +17,7 @@ RegisterNetEvent('adminmenu:showPlayerDetails', function(data)
             { title = locale('pd_admin_options'), icon = 'screwdriver-wrench', arrow = true, event = 'adminmenu:AdminOptions', args = { details = details }},
             { title = locale('pd_char_info'), icon = 'info', arrow = true, event = 'adminmenu:showPlayerDetailsInfo', args = { details = details }},
             { title = locale('pd_garage'), icon = 'car-side', arrow = true, event = 'adminmenu:showPlayerVehicles', args = { vehicles = details.vehicles }},  -- Option to show vehicles
-            --{ title = locale('pd_inventory'), icon = 'toolbox', arrow = false },
+            { title = locale('pd_inventory'), icon = 'toolbox', arrow = true, event = 'adminmenu:showPlayerInventory', args = { details = details }},
             --{ title = locale('pd_houses'), icon = 'house', arrow = false },
 
             { title = '', disabled = true }, -- divider
