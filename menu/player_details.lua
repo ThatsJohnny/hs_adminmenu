@@ -1,8 +1,7 @@
 local QBCore = exports['qb-core']:GetCoreObject()
-Config = Config or {}
 lib.locale()
 
-RegisterNetEvent('am:showPlayerDetails', function(data)
+RegisterNetEvent('adminmenu:showPlayerDetails', function(data)
     local details = data.details
     --print("Showing details for: " .. details.name)
 
@@ -15,9 +14,9 @@ RegisterNetEvent('am:showPlayerDetails', function(data)
             --print("Player details menu closed, going back to player list...")
         end,
         options = {
-            { title = locale('pd_admin_options'), icon = 'screwdriver-wrench', arrow = true, event = 'am:AdminOptions', args = { details = details }},
-            { title = locale('pd_char_info'), icon = 'info', arrow = true, event = 'am:showPlayerDetailsInfo', args = { details = details }},
-            { title = locale('pd_garage'), icon = 'car-side', arrow = true, event = 'am:showPlayerVehicles', args = { vehicles = details.vehicles }},  -- Option to show vehicles
+            { title = locale('pd_admin_options'), icon = 'screwdriver-wrench', arrow = true, event = 'adminmenu:AdminOptions', args = { details = details }},
+            { title = locale('pd_char_info'), icon = 'info', arrow = true, event = 'adminmenu:showPlayerDetailsInfo', args = { details = details }},
+            { title = locale('pd_garage'), icon = 'car-side', arrow = true, event = 'adminmenu:showPlayerVehicles', args = { vehicles = details.vehicles }},  -- Option to show vehicles
             --{ title = locale('pd_inventory'), icon = 'toolbox', arrow = false },
             --{ title = locale('pd_houses'), icon = 'house', arrow = false },
 

@@ -1,8 +1,7 @@
 local QBCore = exports['qb-core']:GetCoreObject()
-Config = Config or {}
 lib.locale()
 
-RegisterNetEvent('am:showPlayerMenu', function(playerDetails)
+RegisterNetEvent('adminmenu:showPlayerMenu', function(playerDetails)
     --print("Received player details for menu.")
 
     -- Sort players by playerId
@@ -61,7 +60,7 @@ RegisterNetEvent('am:showPlayerMenu', function(playerDetails)
                 { label = locale('mm_armor'), value = armor, progress = armor, colorScheme = Config.ThemeColor },
                 { label = locale('mm_owned_vehicles'), value = vehicleCount }
             },
-            event = 'am:showPlayerDetails',
+            event = 'adminmenu:showPlayerDetails',
             args = { details = player.details }
         })
     end

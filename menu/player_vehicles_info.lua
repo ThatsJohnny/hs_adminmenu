@@ -1,7 +1,6 @@
-Config = Config or {}
 lib.locale()
 
-RegisterNetEvent('am:showPlayerVehiclesInfo', function (data)
+RegisterNetEvent('adminmenu:showPlayerVehiclesInfo', function (data)
     local vehicle = data.vehicle
     
     -- Debugging: Show the selected vehicle's trunk, glovebox contents and other bullshit, you gotta start somewhere..

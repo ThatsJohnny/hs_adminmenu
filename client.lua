@@ -1,7 +1,5 @@
-Config = Config or {}
-lib.locale()
-
 local QBCore = exports['qb-core']:GetCoreObject()
+lib.locale()
 
 AddEventHandler('onClientResourceStart', function(resourceName)
     if resourceName == GetCurrentResourceName() then

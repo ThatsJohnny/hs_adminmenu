@@ -1,5 +1,4 @@
 local QBCore = exports['qb-core']:GetCoreObject()
-Config = Config or {}
 lib.locale()
 
 lib.addCommand(Config.Command, {
@@ -24,7 +23,7 @@ lib.addCommand(Config.Command, {
         end
     end
     --print("Sending player details to client...")
-    TriggerClientEvent('am:showPlayerMenu', source, playerDetails)
+    TriggerClientEvent('adminmenu:showPlayerMenu', source, playerDetails)
 end)
 
 -- If admin get Keybind
@@ -94,7 +93,7 @@ function GetPlayerDetails(player)
 end
 
 
-RegisterNetEvent('am:bringPlayer', function(adminSource, targetSource)
+RegisterNetEvent('adminmenu:bringPlayer', function(adminSource, targetSource)
     local adminPed = GetPlayerPed(adminSource)
     local targetPed = GetPlayerPed(targetSource)
 
@@ -107,7 +106,7 @@ RegisterNetEvent('am:bringPlayer', function(adminSource, targetSource)
     end
 end)
 
-RegisterNetEvent('am:goToPlayer', function(adminSource, targetSource)
+RegisterNetEvent('adminmenu:goToPlayer', function(adminSource, targetSource)
     local targetPed = GetPlayerPed(targetSource)
 
     if DoesEntityExist(targetPed) then

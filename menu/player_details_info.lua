@@ -1,8 +1,7 @@
 local QBCore = exports['qb-core']:GetCoreObject()
-Config = Config or {}
 lib.locale()
 
-RegisterNetEvent('am:showPlayerDetailsInfo', function(data)
+RegisterNetEvent('adminmenu:showPlayerDetailsInfo', function(data)
     local details = data.details
     --print("Showing details for: " .. details.name)
 
@@ -23,7 +22,7 @@ RegisterNetEvent('am:showPlayerDetailsInfo', function(data)
             --print("Player details info menu closed, going back to player details menu...")
         end,
         options = {
-            --{ title = 'Garage', icon = 'car', arrow = true, event = 'am:showPlayerVehicles', args = { vehicles = details.vehicles } },
+            --{ title = 'Garage', icon = 'car', arrow = true, event = 'adminmenu:showPlayerVehicles', args = { vehicles = details.vehicles } },
             { title = locale('pdi_citizenid', details.citizenid), icon = 'user-tag' },
             { title = locale('pdi_name', details.name), icon = 'id-card' },
             { title = locale('pdi_birthdate', details.birthdate), icon = 'cake' },

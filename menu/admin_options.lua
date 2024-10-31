@@ -1,8 +1,7 @@
 local QBCore = exports['qb-core']:GetCoreObject()
-Config = Config or {}
 lib.locale()
 
-RegisterNetEvent('am:AdminOptions', function(data)
+RegisterNetEvent('adminmenu:AdminOptions', function(data)
     local details = data.details
 
      lib.registerContext({
@@ -35,7 +34,7 @@ RegisterNetEvent('am:AdminOptions', function(data)
                 arrow = false, 
                 onSelect = function()
                     local adminSource = GetPlayerServerId(PlayerId())
-                    TriggerServerEvent('am:bringPlayer', adminSource, details.id)
+                    TriggerServerEvent('adminmenu:bringPlayer', adminSource, details.id)
                 end
             },
             { 
@@ -44,7 +43,7 @@ RegisterNetEvent('am:AdminOptions', function(data)
                 arrow = false, 
                 onSelect = function()
                     local adminSource = GetPlayerServerId(PlayerId())
-                    TriggerServerEvent('am:goToPlayer', adminSource, details.id)
+                    TriggerServerEvent('adminmenu:goToPlayer', adminSource, details.id)
                 end
             }
         },

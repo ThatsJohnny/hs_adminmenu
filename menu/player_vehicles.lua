@@ -1,4 +1,3 @@
-Config = Config or {}
 lib.locale()
 
 -- Function to convert a Unix timestamp to a formatted date (without os library)
@@ -40,7 +39,7 @@ local function convertTimestampToDate(timestamp)
     )
 end
 
-RegisterNetEvent('am:showPlayerVehicles', function(data)
+RegisterNetEvent('adminmenu:showPlayerVehicles', function(data)
     local vehicles = data.vehicles
     local vehicleOptions = {}
 
@@ -74,7 +73,7 @@ RegisterNetEvent('am:showPlayerVehicles', function(data)
             description = locale('pv_plate', vehicle.plate),
             arrow = true,
             metadata = metadata,
-            event = 'am:showPlayerVehiclesInfo',
+            event = 'adminmenu:showPlayerVehiclesInfo',
             args = { vehicle = vehicle }     
         })
     end
