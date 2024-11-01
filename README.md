@@ -11,6 +11,7 @@ Lightweight and customizable Admin Menu built specifically for the QBCore framew
 # Dependencies
 - QBCore Framework (https://github.com/qbcore-framework)
 - ox_lib (https://github.com/overextended/ox_lib)
+- ox_inventory (https://github.com/overextended/ox_inventory)
 
 # Discord
 https://discord.gg/eYBqkFZjwh (Haze Studios)
