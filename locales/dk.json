@@ -35,7 +35,7 @@
     "ao_goto": "Gå Til",
 
     "pdi_title": "%s [%s]",
-    "pdi_citizenid": "Citizen ID: %s",
+    "pdi_citizenid": "Statsborger ID: %s",
     "pdi_name": "Navn: %s",
     "pdi_birthdate": "Fødselsdag: %s",
     "pdi_gender": "Køn: %s",
