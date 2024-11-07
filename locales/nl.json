@@ -12,7 +12,7 @@
     "mm_hunger": "Honger",
     "mm_thirst": "Dorst",
     "mm_stress": "Stress",
-    "mm_armor": "Harnas",
+    "mm_armor": "Kogelvrij vest",
     "mm_owned_vehicles": "Eigen Voertuigen",
 
     "pd_title": "%s [%s]",
@@ -51,7 +51,7 @@
     "pv_model": "Model",
     "pv_fuel": "Brandstof",
     "pv_body": "Carrosserie",
-    "pv_brake": "Rem",
+    "pv_brake": "Remmen",
     "pv_engine": "Motor",
     "pv_suspension": "Vering",
     "pv_transmission": "Transmissie",
