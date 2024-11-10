@@ -14,7 +14,7 @@ Lightweight and customizable Admin Menu built specifically for the QBCore framew
 - ox_inventory (https://github.com/overextended/ox_inventory)
 
 # Discord
-https://discord.gg/eYBqkFZjwh (Haze Studios)
+https://discord.gg/G7qSaRgHRP (Haze Studios)
 
 # Screenshots
 ![Screenshot 1](https://i.imgur.com/Tl3Otku.png)
