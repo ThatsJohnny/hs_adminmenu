@@ -4,16 +4,16 @@ Lightweight and customizable Admin Menu built specifically for the QBCore framew
 
 <p align="center">
   <a href="https://github.com/ThatsJohnny/hs_adminmenu" style="margin-right: 5px;">
-    <img src="https://img.shields.io/github/downloads/ThatsJohnny/ox_repairkit/total?logo=github" alt="Repo Downloads">
+    <img src="https://img.shields.io/github/downloads/ThatsJohnny/hs_adminmenu/total?logo=github" alt="Repo Downloads">
   </a>
   <a href="https://github.com/ThatsJohnny/hs_adminmenu/graphs/contributors" style="margin-right: 5px;">
-    <img src="https://img.shields.io/github/contributors/ThatsJohnny/ox_repairkit?logo=github" alt="Contributors">
+    <img src="https://img.shields.io/github/contributors/ThatsJohnny/hs_adminmenu?logo=github" alt="Contributors">
   </a>
   <a href="https://github.com/ThatsJohnny/hs_adminmenu/releases" style="margin-right: 5px;">
-    <img src="https://img.shields.io/github/v/release/ThatsJohnny/ox_repairkit?logo=github" alt="Release">
+    <img src="https://img.shields.io/github/v/release/ThatsJohnny/hs_adminmenu?logo=github" alt="Release">
   </a>
   <a href="https://github.com/ThatsJohnny/hs_adminmenu/releases/latest" style="margin-right: 0;">
-    <img src="https://img.shields.io/github/downloads/ThatsJohnny/ox_repairkit/latest/total?logo=github" alt="Downloads@Latest">
+    <img src="https://img.shields.io/github/downloads/ThatsJohnny/hs_adminmenu/latest/total?logo=github" alt="Downloads@Latest">
   </a>
 </p>
 
