@@ -1,6 +1,21 @@
-# [QB] Haze Studios Admin Menu
+# [QB] Admin Menu
 
 Lightweight and customizable Admin Menu built specifically for the QBCore framework. Utilizing the powerful ox_lib, this menu is designed to provide essential admin features without unnecessary bloat, making it easy to manage your server efficiently.
+
+<p align="center">
+  <a href="https://github.com/ThatsJohnny/hs_adminmenu" style="margin-right: 5px;">
+    <img src="https://img.shields.io/github/downloads/ThatsJohnny/ox_repairkit/total?logo=github" alt="Repo Downloads">
+  </a>
+  <a href="https://github.com/ThatsJohnny/hs_adminmenu/graphs/contributors" style="margin-right: 5px;">
+    <img src="https://img.shields.io/github/contributors/ThatsJohnny/ox_repairkit?logo=github" alt="Contributors">
+  </a>
+  <a href="https://github.com/ThatsJohnny/hs_adminmenu/releases" style="margin-right: 5px;">
+    <img src="https://img.shields.io/github/v/release/ThatsJohnny/ox_repairkit?logo=github" alt="Release">
+  </a>
+  <a href="https://github.com/ThatsJohnny/hs_adminmenu/releases/latest" style="margin-right: 0;">
+    <img src="https://img.shields.io/github/downloads/ThatsJohnny/ox_repairkit/latest/total?logo=github" alt="Downloads@Latest">
+  </a>
+</p>
 
 # Key Features
 - User-Friendly Interface: Clean and intuitive menu design for seamless navigation.
